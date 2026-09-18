@@ -6104,6 +6104,8 @@ def export_results(rows, json_path=None, csv_path=None):
             "setup": r["setup"],
             "setup_label": SETUP_LABELS.get(r["setup"], r["setup"]),
             "score": r["score"],
+            "maker_flow": r.get("maker_flow", ""),
+            "smart_carry": r.get("smart_carry", 0.0),
             "grade": score_grade(r["score"], r=r),
             "verdict": plan["verdict"],
             "side": plan["side"],
