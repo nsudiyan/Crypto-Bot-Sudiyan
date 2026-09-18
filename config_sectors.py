@@ -1,1 +1,0 @@
-SECTOR_MAP = {}

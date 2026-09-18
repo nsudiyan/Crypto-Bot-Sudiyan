@@ -19,5 +19,4 @@ rad.json
 #License-file
 *.flf
 #Test results file
-TestResults.xml__pycache__/
-mirofish-state/
+TestResults.xml
